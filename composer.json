@@ -1,0 +1,23 @@
+{
+    "name": "tiagolopes/swoole-php",
+    "description": "Repositório para o curso de PHP com Swoole, da Alura",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Tiagolopes\\SwoolePhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tiago Lopes",
+            "email": "tiagoltavares2002@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.4",
+        "openswoole/core": "22.1.5"
+    },
+    "require-dev": {
+        "openswoole/ide-helper": "^22.1"
+    }
+}
