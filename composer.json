@@ -16,7 +16,8 @@
     "require": {
         "php": "^8.4",
         "openswoole/core": "22.1.5",
-        "ext-swoole": "*"
+        "ext-swoole": "*",
+        "ext-curl": "*"
     },
     "require-dev": {
         "openswoole/ide-helper": "^22.1"
