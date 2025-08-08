@@ -1,21 +1,14 @@
 <?php
 
-use Tiagolopes\SwoolePhp\Controller\CourseList;
-use Tiagolopes\SwoolePhp\Controller\CreateCourseForm;
-use Tiagolopes\SwoolePhp\Controller\DeleteCourse;
-use Tiagolopes\SwoolePhp\Controller\Login;
-use Tiagolopes\SwoolePhp\Controller\LoginForm;
-use Tiagolopes\SwoolePhp\Controller\Logout;
-use Tiagolopes\SwoolePhp\Controller\StoreCourse;
-use Tiagolopes\SwoolePhp\Controller\UpdateCourseForm;
+use Tiagolopes\SwoolePhp\Controller;
 
 return [
-    '/login' => LoginForm::class,
-    '/fazer-login' => Login::class,
-    '/logout' => Logout::class,
-    '/novo-curso' => CreateCourseForm::class,
-    '/salvar-curso' => StoreCourse::class,
-    '/listar-cursos' => CourseList::class,
-    '/editar-curso' => UpdateCourseForm::class,
-    '/excluir-curso' => DeleteCourse::class,
+    '/login' => Controller\LoginForm::class,
+    '/fazer-login' => Controller\Login::class,
+    '/logout' => Controller\Logout::class,
+    '/novo-curso' => Controller\CreateCourseForm::class,
+    '/salvar-curso' => Controller\StoreCourse::class,
+    '/listar-cursos' => Controller\CourseList::class,
+    '/editar-curso' => Controller\UpdateCourseForm::class,
+    '/excluir-curso' => Controller\DeleteCourse::class,
 ];

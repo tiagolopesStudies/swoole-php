@@ -34,7 +34,7 @@
     "scripts": {
         "dev": [
             "Composer\\Config::disableProcessTimeout",
-            "php -S localhost:8080 -t public"
+            "php public/swoole.php"
         ]
     }
 }
