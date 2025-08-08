@@ -16,10 +16,25 @@
     "require": {
         "php": "^8.4",
         "openswoole/core": "22.1.5",
-        "ext-swoole": "*",
-        "ext-curl": "*"
+        "ext-curl": "*",
+        "ext-pdo": "*",
+        "psr/http-message": "^1.0",
+        "psr/http-server-handler": "^1.0",
+        "nyholm/psr7": "^1.4",
+        "nyholm/psr7-server": "^1.0",
+        "doctrine/orm": "^2.8",
+        "php-di/php-di": "^6.3",
+        "symfony/cache": "^7.3",
+        "doctrine/annotations": "1.14.4",
+        "ext-swoole": "*"
     },
     "require-dev": {
         "openswoole/ide-helper": "^22.1"
+    },
+    "scripts": {
+        "dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "php -S localhost:8080 -t public"
+        ]
     }
 }
