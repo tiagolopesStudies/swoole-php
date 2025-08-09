@@ -423,6 +423,7 @@ go(function () {
 - [Documentação Oficial OpenSwoole](https://openswoole.com/)
 - [Swoole vs Node.js vs Go Benchmarks](https://github.com/openswoole/benchmark)
 - [Curso PHP com Swoole - Alura](https://www.alura.com.br/)
+- [Request Handler para o Swoole](https://github.com/chubbyphp/chubbyphp-swoole-request-handler)
 
 ## Contribuição
 
